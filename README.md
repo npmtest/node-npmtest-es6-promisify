@@ -1,6 +1,6 @@
 # npmtest-es6-promisify
 
-#### test coverage for  [es6-promisify (v5.0.0)](https://github.com/digitaldesignlabs/es6-promisify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-es6-promisify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-es6-promisify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-es6-promisify.svg)](https://travis-ci.org/npmtest/node-npmtest-es6-promisify)
+#### basic test coverage for  [es6-promisify (v5.0.0)](https://github.com/digitaldesignlabs/es6-promisify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-es6-promisify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-es6-promisify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-es6-promisify.svg)](https://travis-ci.org/npmtest/node-npmtest-es6-promisify)
 
 #### Converts callback-based functions to ES6 Promises
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-es6-promisify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-es6-promisify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-es6-promisify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-es6-promisify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-es6-promisify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-es6-promisify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-es6-promisify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-es6-promisify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-es6-promisify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-es6-promisify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-es6-promisify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-es6-promisify/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
         "pretest": "./node_modules/eslint/bin/eslint.js ./lib/*.js ./tests/*.js",
         "test": "gulp && nodeunit tests"
     },
-    "version": "5.0.0"
+    "version": "5.0.0",
+    "bin": {}
 }
 ```
 
